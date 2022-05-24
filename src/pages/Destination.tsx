@@ -19,7 +19,7 @@ const Destination = () => {
         PICK YOUR DESTINATION
       </h1>
       <div className="flex flex-col lg:max-w-[1047px]  mx-auto lg:flex-row mt-8 sm:mt-[60px] lg:mt-0 justify-between w-full">
-        <PlanetContainer planetName={selectedPlanet.name} />
+        <PlanetContainer planetName={selectedPlanet.name.toLowerCase()} />
         <PlanetDescription
           selectedPlanet={selectedPlanet}
           setSelectedPlanet={setSelectedPlanet}
