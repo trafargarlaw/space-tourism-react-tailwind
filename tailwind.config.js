@@ -1,5 +1,25 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  safelist: [
+    "lg:bg-/-desktop",
+    "bg-/-mobile",
+    "sm:bg-/-tablet",
+    "lg:bg-/destination-desktop",
+    "sm:bg-/destination-tablet",
+    "bg-/destination-mobile",
+    "lg:bg-/crew-desktop",
+    "sm:bg-/crew-tablet",
+    "bg-/crew-mobile",
+    "lg:bg-/technology-desktop",
+    "sm:bg-/technology-tablet",
+    "bg-/technology-mobile",
+    "bg-[url('/images/technology/image-space-capsule-landscape.jpg')]",
+    "lg:bg-[url('/images/technology/image-space-capsule-portrait.jpg')]",
+    "bg-[url('/images/technology/image-launch-vehicle-landscape.jpg')]",
+    "lg:bg-[url('/images/technology/image-launch-vehicle-portrait.jpg')]",
+    "bg-[url('/images/technology/image-spaceport-landscape.jpg.jpg')]",
+    "lg:bg-[url('/images/technology/image-spaceport-portrait.jpg')]",
+  ],
   theme: {
     extend: {
       colors: {
@@ -8,8 +28,8 @@ module.exports = {
       },
       backgroundImage: {
         "/-desktop": "url('/images/home/background-home-desktop.jpg')",
-        "/-tablet": "url('/images/home/background-home-tablet.jpg')",
         "/-mobile": "url('/images/home/background-home-mobile.jpg')",
+        "/-tablet": "url('/images/home/background-home-tablet.jpg')",
         "/destination-desktop":
           "url('/images/destination/background-destination-desktop.jpg')",
         "/destination-tablet":
