@@ -17,7 +17,7 @@ module.exports = {
     "lg:bg-[url('/images/technology/image-space-capsule-portrait.jpg')]",
     "bg-[url('/images/technology/image-launch-vehicle-landscape.jpg')]",
     "lg:bg-[url('/images/technology/image-launch-vehicle-portrait.jpg')]",
-    "bg-[url('/images/technology/image-spaceport-landscape.jpg.jpg')]",
+    "bg-[url('/images/technology/image-spaceport-landscape.jpg')]",
     "lg:bg-[url('/images/technology/image-spaceport-portrait.jpg')]",
   ],
   theme: {
